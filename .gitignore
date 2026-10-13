@@ -1,0 +1,5 @@
+/backups/
+/build/
+*.dt
+*.1cd
+*.log

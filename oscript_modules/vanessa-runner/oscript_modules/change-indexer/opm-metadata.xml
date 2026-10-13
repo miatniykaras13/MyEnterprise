@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>change-indexer</name>
+    <version>0.1.0</version>
+    <engine-version>2.0.0</engine-version>
+    <author>Egor Ivanov</author>
+    <description>Кроссплатформенная библиотека индексирования каталогов на .NET для отслеживания изменений файлов</description>
+    <repo-address>https://github.com/Segate-ekb/change-indexer</repo-address>
+    <depends-on name="asserts" dev="true" version="1.6.1"/>
+    <depends-on name="1commands" dev="true" version="1.5.0"/>
+    <depends-on name="oneunit" dev="true" version="0.3.3"/>
+</opm-metadata>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>oscript-yaml</name>
+    <version>0.3.0</version>
+    <author>Egor Ivanov</author>
+    <author-email>e.ivanov@1cdevelopers.ru</author-email>
+    <description>Реализация Yaml</description>
+    <engine-version>2.0.0</engine-version>
+    <depends-on name="oneunit" dev="true" version="0.2.4"/>
+    <depends-on name="asserts" dev="true" version="1.4.0"/>
+    <depends-on name="fs" dev="true" version="1.2.0"/>
+    <depends-on name="1connector" dev="true" version="2.2.1"/>
+</opm-metadata>

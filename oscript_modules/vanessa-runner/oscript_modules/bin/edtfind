@@ -1,0 +1,2 @@
+#!/bin/bash
+oscript "/home/runner/work/vanessa-runner/vanessa-runner/oscript_modules/edtfind/src/edtfind.os" "$@"

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>oneunit</name>
+    <version>0.5.2</version>
+    <author>Кирилл Черненко</author>
+    <author-email>https://github.com/sfaqer</author-email>
+    <repo-address>https://github.com/sfaqer/oneunit</repo-address>
+    <description>Фреймворк тестирования для OneScript</description>
+    <manifest-version>1.4.0</manifest-version>
+    <engine-version>2.2.0</engine-version>
+    <depends-on name="1commands" dev="false" version="1.5.0"/>
+    <depends-on name="annotations" dev="false" version="1.6.0"/>
+    <depends-on name="asserts" dev="false" version="1.6.2"/>
+    <depends-on name="async" dev="false" version="0.3.0"/>
+    <depends-on name="autumn" dev="false" version="4.3.13"/>
+    <depends-on name="autumn-cli" dev="false" version="1.3.0"/>
+    <depends-on name="autumn-event-publisher" dev="false" version="1.0.1"/>
+    <depends-on name="autumn-logos" dev="false" version="1.3.3"/>
+    <depends-on name="autumn-mcp" dev="false" version="1.1.2"/>
+    <depends-on name="collectionos" dev="false" version="0.8.3"/>
+    <depends-on name="coverage" dev="false" version="0.7.0"/>
+    <depends-on name="decorator" dev="false" version="2.0.8"/>
+    <depends-on name="fs" dev="false" version="1.2.0"/>
+    <depends-on name="lambdas" dev="false" version="0.3.4"/>
+    <depends-on name="logos" dev="false" version="1.7.1"/>
+    <depends-on name="semver" dev="false" version="1.1.1"/>
+    <depends-on name="tempfiles" dev="false" version="1.1.1"/>
+    <executable>src/cli/main.os</executable>
+</opm-metadata>

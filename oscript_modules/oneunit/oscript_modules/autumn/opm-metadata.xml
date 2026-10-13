@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>autumn</name>
+    <version>4.3.13</version>
+    <author>Nikita Fedkin</author>
+    <author-email>nixel2007@gmail.com</author-email>
+    <description>Dependency injection framework для OneScript</description>
+    <engine-version>1.9.2</engine-version>
+    <depends-on name="annotations" dev="false" version="1.6.0"/>
+    <depends-on name="asserts" dev="false" version="1.4.0"/>
+    <depends-on name="configor" dev="false" version="0.9.1"/>
+    <depends-on name="logos" dev="false" version="1.7.1"/>
+    <depends-on name="fluent" dev="false" version="0.6.1"/>
+    <depends-on name="reflector" dev="false" version="0.7.1"/>
+    <depends-on name="semaphore" dev="false" version="1.1.0"/>
+    <depends-on name="collectionos" dev="false" version="0.7.2"/>
+    <depends-on name="autumn-collections" dev="false" version="0.1.1"/>
+    <depends-on name="lambdas" dev="false" version="0.3.2"/>
+    <depends-on name="1testrunner" dev="true"/>
+    <depends-on name="coverage" dev="true"/>
+    <depends-on name="fs" dev="true"/>
+    <depends-on name="decorator" dev="true" version="1.7.1"/>
+</opm-metadata>

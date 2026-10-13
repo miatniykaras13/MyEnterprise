@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>irac</name>
+    <version>1.4.0</version>
+    <author>Artem Kuznetsov</author>
+    <author-email>ArKuznetsov@gmail.com</author-email>
+    <description>Библиотека администрирования кластера серверов 1С</description>
+    <engine-version>1.6.0</engine-version>
+    <depends-on name="fs" dev="false"/>
+    <depends-on name="logos" dev="false" version="1.0.2"/>
+    <depends-on name="tempfiles" dev="false"/>
+    <depends-on name="strings" dev="false" version="0.4.1"/>
+    <depends-on name="1commands" dev="false" version="1.3.1"/>
+    <depends-on name="v8find" dev="false"/>
+    <depends-on name="1connector" dev="false"/>
+    <depends-on name="1testrunner" dev="true"/>
+    <depends-on name="v8runner" dev="true"/>
+    <depends-on name="moskito" dev="true"/>
+    <depends-on name="asserts" dev="true"/>
+</opm-metadata>

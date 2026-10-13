@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>autumn-mcpify</name>
+    <version>0.3.0</version>
+    <engine-version>2.0.0</engine-version>
+    <author>Egor Ivanov</author>
+    <repo-address>https://github.com/Segate-ekb/autumn-mcpify</repo-address>
+    <description>Превращает CLI-приложение на autumn-cli в MCP-сервер: команды с маркером &amp;ДоступноВMCP автоматически становятся MCP-инструментами.</description>
+    <depends-on name="autumn" dev="false" version="5.0.0"/>
+    <depends-on name="autumn-cli" dev="false" version="1.3.0"/>
+    <depends-on name="autumn-mcp" dev="false" version="1.1.0"/>
+    <depends-on name="1commands" dev="false" version="1.5.0"/>
+    <depends-on name="logos" dev="false" version="1.7.1"/>
+    <depends-on name="json" dev="false" version="1.1.2"/>
+    <depends-on name="oneunit" dev="true" version="0.5.0"/>
+    <depends-on name="asserts" dev="true" version="1.6.2"/>
+    <depends-on name="autumn-logos" dev="true" version="1.3.3"/>
+</opm-metadata>

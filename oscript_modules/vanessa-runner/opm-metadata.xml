@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>vanessa-runner</name>
+    <version>3.0.2</version>
+    <engine-version>2.0.0</engine-version>
+    <repo-address>https://github.com/vanessa-opensource/vanessa-runner</repo-address>
+    <depends-on name="autumn" dev="false" version="5.0.0"/>
+    <depends-on name="autumn-cli" dev="false" version="1.3.0"/>
+    <depends-on name="autumn-logos" dev="false" version="1.3.3"/>
+    <depends-on name="v8runner" dev="false" version="1.13.1"/>
+    <depends-on name="ibcmdrunner" dev="false" version="0.4.1"/>
+    <depends-on name="v8find" dev="false" version="0.3.2"/>
+    <depends-on name="edtfind" dev="false" version="1.0.2"/>
+    <depends-on name="tempfiles" dev="false" version="1.1.1"/>
+    <depends-on name="fs" dev="false" version="1.2.0"/>
+    <depends-on name="irac" dev="false" version="1.4.0"/>
+    <depends-on name="1commands" dev="false" version="1.5.0"/>
+    <depends-on name="v8storage" dev="false"/>
+    <depends-on name="change-indexer" dev="false" version="0.1.0"/>
+    <depends-on name="autumn-mcp" dev="false" version="1.1.2"/>
+    <depends-on name="autumn-mcpify" dev="false" version="0.3.0"/>
+    <depends-on name="decorator" dev="false" version="3.0.0"/>
+    <depends-on name="coverage" dev="false" version="0.7.0"/>
+    <depends-on name="coveragebsl" dev="false" version="0.5.0"/>
+    <depends-on name="packageinfo" dev="false" version="1.1.1"/>
+    <depends-on name="oneunit" dev="true" version="0.5.0"/>
+    <depends-on name="asserts" dev="true" version="1.6.2"/>
+    <depends-on name="moskito" dev="true" version="1.0.0"/>
+    <depends-on name="mutatos" dev="true" version="1.0.0"/>
+    <executable name="vrunner">src/main.os</executable>
+    <executable name="vanessa-runner">src/main.os</executable>
+    <executable name="vrunner-mcp">src/mcp.os</executable>
+</opm-metadata>

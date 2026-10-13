@@ -1,0 +1,10 @@
+{
+    "vrunner":{
+        "log-output": "stdout"
+    },
+    "logos":{
+        "logger": {
+            "vrunner": "INFO"
+        }
+    }
+}

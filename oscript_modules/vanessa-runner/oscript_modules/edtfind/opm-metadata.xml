@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>edtfind</name>
+    <version>1.0.2</version>
+    <engine-version>1.6</engine-version>
+    <depends-on name="logos" dev="false"/>
+    <depends-on name="cli" dev="false"/>
+    <depends-on name="fs" dev="false"/>
+    <depends-on name="semver" dev="false"/>
+    <executable>src/edtfind.os</executable>
+</opm-metadata>

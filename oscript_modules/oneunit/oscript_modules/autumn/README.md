@@ -1,0 +1,22 @@
+# Autumn/ОСень
+
+[![Тестирование](https://github.com/autumn-library/autumn/actions/workflows/testing.yml/badge.svg?branch=master)](https://github.com/autumn-library/autumn/actions/workflows/testing.yml)
+[![Статус порога качества](https://sonar.openbsl.ru/api/project_badges/measure?project=autumn&metric=alert_status)](https://sonar.openbsl.ru/dashboard?id=autumn)
+[![Used by](https://litrosbadges.ru/package/autumn.svg)](https://litrosbadges.ru/package/autumn)
+
+> Что такое осень - это желудь!
+
+🍂 https://autumn-library.github.io 🍂
+
+Осень…. прекрасная пора. Ею вдохновлялся Пушкин, говорил, что осенью его особенно прёт. Именно это и произошло с авторами фреймворка "ОСень". Потому что осень - это прекрасно.  
+Когда приложение становится большим, вам потребуется дерево (желательно дуб) и немного пластилина. Ах, да, обязательно творческое осеннее настроение, чай и стабильная психика.
+
+Фреймворк компонентных приложений для 1Script под названием "ОСень" поможет вам невероятным магическим образом компоновать ваше приложение из компонентов, которым не нужно заниматься собственным созданием или настройкой. И все это будет щедро обмазано пластилином и приятно пахнуть дубовыми вениками.
+
+---
+
+Подробная документация по библиотеке доступна на сайте: https://autumn-library.github.io
+
+Исходный код документации располагается в каталоге [/docs](./docs)
+
+Приятного пользования! 🍂

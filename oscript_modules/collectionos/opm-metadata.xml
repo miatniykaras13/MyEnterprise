@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opm-metadata xmlns="http://oscript.io/schemas/opm-metadata/1.0">
+    <name>collectionos</name>
+    <version>0.8.4</version>
+    <author>Кирилл Черненко</author>
+    <author-email>https://github.com/sfaqer</author-email>
+    <description>Фреймворк коллекций для OneScript</description>
+    <engine-version>1.9.4</engine-version>
+    <depends-on name="reflector" dev="false" version="0.7.1"/>
+    <depends-on name="fluent" dev="false" version="0.6.1"/>
+    <depends-on name="lambdas" dev="false" version="0.3.4"/>
+    <depends-on name="optional" dev="false" version="2.1.0"/>
+    <depends-on name="1commands" dev="true" version="1.5.0"/>
+    <depends-on name="1testrunner" dev="true" version="1.9.2"/>
+    <depends-on name="coverage" dev="true" version="0.7.0"/>
+    <depends-on name="fs" dev="true" version="1.2.0"/>
+    <depends-on name="asserts" dev="true" version="1.6.2"/>
+    <depends-on name="decorator" dev="true" version="2.0.8"/>
+</opm-metadata>

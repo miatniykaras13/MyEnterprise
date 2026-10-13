@@ -262,6 +262,7 @@
 			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>ОказаниеУслуги</Document>
+			<Report>Материалы</Report>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

@@ -116,4 +116,14 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>

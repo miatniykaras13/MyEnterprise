@@ -45,7 +45,7 @@
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.ПереченьНомеклатуры</DataPath>
+			<DataPath>Объект.ПереченьНоменклатуры</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ПереченьНомеклатурыКонтекстноеМеню" id="17"/>
 			<AutoCommandBar name="ПереченьНомеклатурыКоманднаяПанель" id="18"/>
@@ -76,20 +76,20 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="ПереченьНомеклатурыНомерСтроки" id="29">
-					<DataPath>Объект.ПереченьНомеклатуры.LineNumber</DataPath>
+					<DataPath>Объект.ПереченьНоменклатуры.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ПереченьНомеклатурыНомерСтрокиКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ПереченьНомеклатурыНомерСтрокиРасширеннаяПодсказка" id="31"/>
 				</LabelField>
 				<InputField name="ПереченьНомеклатурыНоменклатура" id="32">
-					<DataPath>Объект.ПереченьНомеклатуры.Номенклатура</DataPath>
+					<DataPath>Объект.ПереченьНоменклатуры.Номенклатура</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПереченьНомеклатурыНоменклатураКонтекстноеМеню" id="33"/>
 					<ExtendedTooltip name="ПереченьНомеклатурыНоменклатураРасширеннаяПодсказка" id="34"/>
 				</InputField>
 				<InputField name="ПереченьНомеклатурыКоличество" id="35">
-					<DataPath>Объект.ПереченьНомеклатуры.Количество</DataPath>
+					<DataPath>Объект.ПереченьНоменклатуры.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПереченьНомеклатурыКоличествоКонтекстноеМеню" id="36"/>
@@ -99,7 +99,7 @@
 					</Events>
 				</InputField>
 				<InputField name="ПереченьНомеклатурыЦена" id="38">
-					<DataPath>Объект.ПереченьНомеклатуры.Цена</DataPath>
+					<DataPath>Объект.ПереченьНоменклатуры.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПереченьНомеклатурыЦенаКонтекстноеМеню" id="39"/>
@@ -109,7 +109,7 @@
 					</Events>
 				</InputField>
 				<InputField name="ПереченьНомеклатурыСумма" id="41">
-					<DataPath>Объект.ПереченьНомеклатуры.Сумма</DataPath>
+					<DataPath>Объект.ПереченьНоменклатуры.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ПереченьНомеклатурыСуммаКонтекстноеМеню" id="42"/>
@@ -130,4 +130,14 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<CommandGroup>FormNavigationPanelGoTo</CommandGroup>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
 </Form>

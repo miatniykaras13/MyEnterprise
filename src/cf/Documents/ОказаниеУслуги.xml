@@ -60,7 +60,9 @@
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
-			<RegisterRecords/>
+			<RegisterRecords>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
+			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
@@ -203,21 +205,21 @@
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="2907c5e3-73c0-46fe-ad04-374fd3d2f0e7">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ОказаниеУслуги.ПереченьНомеклатуры" category="TabularSection">
+					<xr:GeneratedType name="DocumentTabularSection.ОказаниеУслуги.ПереченьНоменклатуры" category="TabularSection">
 						<xr:TypeId>9a305e23-06c5-427c-96f5-72912832733f</xr:TypeId>
 						<xr:ValueId>69522d55-e122-41d6-84d2-60b521f878ec</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ОказаниеУслуги.ПереченьНомеклатуры" category="TabularSectionRow">
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОказаниеУслуги.ПереченьНоменклатуры" category="TabularSectionRow">
 						<xr:TypeId>62125048-e28d-4267-82b6-7e97d2f353b4</xr:TypeId>
 						<xr:ValueId>5791432e-fe58-4931-9141-0b545295474a</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>ПереченьНомеклатуры</Name>
+					<Name>ПереченьНоменклатуры</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Перечень номеклатуры</v8:content>
+							<v8:content>Перечень номенклатуры</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -391,6 +393,25 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Template>Печать</Template>
+			<Command uuid="f03648e8-3397-4506-bf34-7c5cc9610a9a">
+				<Properties>
+					<Name>Печать</Name>
+					<Synonym/>
+					<Comment/>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.ОказаниеУслуги</v8:Type>
+					</CommandParameterType>
+					<ParameterUseMode>Multiple</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

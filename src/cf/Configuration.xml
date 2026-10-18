@@ -256,13 +256,16 @@
 			<Subsystem>Предприятие</Subsystem>
 			<Subsystem>Бухгалтерия</Subsystem>
 			<CommonModule>РаботаСДокументами</CommonModule>
+			<CommonModule>РаботаСоСправочниками</CommonModule>
 			<Catalog>Клиенты</Catalog>
 			<Catalog>Сотрудники</Catalog>
-			<Catalog>Номеклатура</Catalog>
+			<Catalog>Номенклатура</Catalog>
 			<Catalog>Склады</Catalog>
 			<Document>ПриходнаяНакладная</Document>
 			<Document>ОказаниеУслуги</Document>
+			<Enum>ВидыНоменклатуры</Enum>
 			<Report>Материалы</Report>
+			<InformationRegister>Цены</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

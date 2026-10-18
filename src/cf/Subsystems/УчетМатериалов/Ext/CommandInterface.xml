@@ -6,7 +6,7 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="Catalog.Номеклатура.StandardCommand.Create">
+		<Command name="Catalog.Номенклатура.StandardCommand.Create">
 			<Visibility>
 				<xr:Common>true</xr:Common>
 			</Visibility>
